@@ -1,10 +1,19 @@
-# Getting Started with Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Github Repository
+
+[https://github.com/rjkprince/mapup](https://github.com/rjkprince/mapup)
+
+Please go to the repository and clone it to your local system.
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Install the dependecies and create the node_modules folder.\
+Please install the dependecies before proceeding further.
 
 ### `npm start`
 

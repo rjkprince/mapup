@@ -1,13 +1,56 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.site-layout-sub-header-background {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  margin-left: 20px;
+}
+
+.loginActions {
+  margin-right: 20px;
+}
+.loginActions button {
+  margin-right: 20px;
+}
+.site-layout-background {
+  background: #fff;
+}
+[data-theme="dark"] .site-layout-sub-header-background {
+  background: #141414;
+}
+.mapArea {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.mapArea iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.sidebar {
+  z-index: 99;
+}
+
+.floatingForm {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
